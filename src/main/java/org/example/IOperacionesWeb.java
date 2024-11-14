@@ -18,7 +18,7 @@ public interface IOperacionesWeb {
 	 * @param numeroEntradas Número de entradas a reponer
 	 * @return Número de entradas disponibles tras la reposición
 	 */
-	int reponerEntradas(int numeroEntradas);
+	int reponerEntradas(int numeroEntradas) throws InterruptedException;
 	
 	/**
 	 * Cierra la venta de entradas. Por lo tanto, quien quiera comprar entradas no podrá hacerlo.
@@ -34,7 +34,7 @@ public interface IOperacionesWeb {
 	 * 
 	 * @return El número de entradas disponibles en la web de compra de conciertos
 	 */
-	boolean hayEntradas();
+	boolean hayEntradas() throws InterruptedException;
 	
 	/**
 	 * Informa de las entradas restantes.

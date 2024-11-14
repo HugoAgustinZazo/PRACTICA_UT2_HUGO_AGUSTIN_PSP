@@ -1,5 +1,7 @@
 package org.example.model;
 
+import org.example.EjemploTicketMaster;
+
 import java.util.Random;
 
 public class FanGrupo extends Thread {
@@ -19,21 +21,23 @@ public class FanGrupo extends Thread {
 	public void run() {
 		System.out.println(tabuladores+"Fan "+numeroFan+" :Hola!");
         try {
-            Thread.sleep(1000);
-			System.out.println(tabuladores+"Fan "+numeroFan+" :Intento comprar entrada");
-			if(webCompra.comprarEntrada()){
-				entradasCompradas+=1;
-				System.out.println(tabuladores+"Fan "+numeroFan+" Compré! Llevo: "+entradasCompradas);
-				System.out.println(tabuladores+"Fan "+numeroFan+" (dormir zzzz)");
+		do{
+			Thread.sleep(1000);
+			System.out.println(tabuladores + "Fan " + numeroFan + " :Intento comprar entrada");
+			boolean comprarEntradas = webCompra.comprarEntrada();
+			if (comprarEntradas) {
+				entradasCompradas += 1;
+				System.out.println(tabuladores + "Fan " + numeroFan + " Compré! Llevo: " + entradasCompradas);
+				System.out.println(tabuladores + "Fan " + numeroFan + " (dormir zzzz)");
 				Random rd = new Random();
-				int tiempoDormir = rd.nextInt(1,4);
-				Thread.sleep(tiempoDormir*1000);
+				int tiempoDormir = rd.nextInt(1, 4);
+				Thread.sleep(tiempoDormir * 1000);
 			}
-        } catch (InterruptedException e) {
-            throw new RuntimeException(e);
-        }
+		}while (entradasCompradas<EjemploTicketMaster.MAX_ENTRADAS_POR_FAN||WebCompraConciertos.entradasTotales!=0 && !WebCompraConciertos.cerrarVenta);
 
-
+		} catch(InterruptedException e){
+				throw new RuntimeException(e);
+			}
     }
 	
 	public void muestraEntradasCompradas() {
