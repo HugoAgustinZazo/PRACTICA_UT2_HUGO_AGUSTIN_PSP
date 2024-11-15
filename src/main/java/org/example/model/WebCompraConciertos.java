@@ -9,6 +9,7 @@ public static boolean hayentradas = false;
 public static boolean hayentradasTotales = true;
 public static int entradasTotales = EjemploTicketMaster.TOTAL_ENTRADAS;
 public static boolean cerrarVenta=false;
+public static int entradasVendidas = 0;
 	public WebCompraConciertos() {
 		super();
 	}
@@ -16,13 +17,17 @@ public static boolean cerrarVenta=false;
 
 	@Override
 	public synchronized boolean comprarEntrada() throws InterruptedException {
-		while(entradasRestantesRepuestas==0) {
+		while(entradasRestantesRepuestas==0&&!cerrarVenta) {
 			System.out.println("WebCompra: SOLD OUT! Esperamos a que repongan entradas");
 			wait();
 		}
-			System.out.println("WebCompra:  comprada quedan "+entradasRestantes());
+		if (!cerrarVenta) {
+			System.out.println("WebCompra:  comprada quedan " + entradasRestantes());
+			entradasVendidas++;
 			notify();
 			return true;
+		}
+		return false;
 	}
 
 
@@ -40,7 +45,7 @@ public static boolean cerrarVenta=false;
 	public synchronized void cerrarVenta() {
 		if(entradasTotales==0) {
 			cerrarVenta = true;
-			notify();
+			notifyAll();
 		}
 	}
 

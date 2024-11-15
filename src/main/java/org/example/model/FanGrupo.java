@@ -33,7 +33,8 @@ public class FanGrupo extends Thread {
 				int tiempoDormir = rd.nextInt(1, 4);
 				Thread.sleep(tiempoDormir * 1000);
 			}
-		}while (entradasCompradas<EjemploTicketMaster.MAX_ENTRADAS_POR_FAN||WebCompraConciertos.entradasTotales!=0 && !WebCompraConciertos.cerrarVenta);
+		}while (!WebCompraConciertos.cerrarVenta);
+			System.out.println(tabuladores+"Fan "+numeroFan+" -Termino- ");
 
 		} catch(InterruptedException e){
 				throw new RuntimeException(e);
@@ -41,9 +42,12 @@ public class FanGrupo extends Thread {
     }
 	
 	public void muestraEntradasCompradas() {
+		int total = 0;
 		if(entradasCompradas>0) {
 			System.out.println(tabuladores + "Fan "+numeroFan+": Solo he conseguido: "+entradasCompradas);
+			total +=entradasCompradas;
 		}
+		System.out.println("Total entradas compradas por los fans "+total);
 	}
 	
 

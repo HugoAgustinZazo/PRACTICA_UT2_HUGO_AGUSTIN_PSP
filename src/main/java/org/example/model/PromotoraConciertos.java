@@ -31,6 +31,7 @@ public class PromotoraConciertos extends Thread {
 							contador++;
 						}
 					}while(contador<numvueltas);
+					System.out.println(" Promotora: Ya se han terminado las entradas, qu� pena. Vendí: "+WebCompraConciertos.entradasVendidas);
 					webCompra.cerrarVenta();
 				} catch (InterruptedException e) {
 					throw new RuntimeException(e);
