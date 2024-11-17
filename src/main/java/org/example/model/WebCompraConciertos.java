@@ -2,8 +2,11 @@ package org.example.model;
 
 import org.example.EjemploTicketMaster;
 import org.example.IOperacionesWeb;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 public class WebCompraConciertos implements IOperacionesWeb {
+private static final Logger logger = LoggerFactory.getLogger(WebCompraConciertos.class);
 public static int  entradasRestantesRepuestas = 0;
 public static boolean hayentradas = false;
 public static boolean hayentradasTotales = true;
@@ -18,11 +21,11 @@ public static int entradasVendidas = 0;
 	@Override
 	public synchronized boolean comprarEntrada() throws InterruptedException {
 		while(entradasRestantesRepuestas==0&&!cerrarVenta) {
-			System.out.println("WebCompra: SOLD OUT! Esperamos a que repongan entradas");
+			logger.info("WebCompra: SOLD OUT! Esperamos a que repongan entradas");
 			wait();
 		}
 		if (!cerrarVenta) {
-			System.out.println("WebCompra:  comprada quedan " + entradasRestantes());
+			logger.info("WebCompra:  comprada quedan " + entradasRestantes());
 			entradasVendidas++;
 			notify();
 			return true;
@@ -33,7 +36,7 @@ public static int entradasVendidas = 0;
 
 	@Override
 	public synchronized int reponerEntradas(int numeroEntradas) throws InterruptedException {
-		System.out.println("WebCompra: Reposicion: Ahora hay "+numeroEntradas);
+		logger.info("WebCompra: Reposicion: Ahora hay "+numeroEntradas);
 		entradasRestantesRepuestas = numeroEntradas;
 		hayentradas=true;
 		notify();
