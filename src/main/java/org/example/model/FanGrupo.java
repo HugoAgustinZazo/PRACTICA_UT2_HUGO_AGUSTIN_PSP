@@ -25,17 +25,19 @@ public class FanGrupo extends Thread {
         try {
 		do{
 			Thread.sleep(1000);
-			logger.info(tabuladores + "Fan " + numeroFan + " :Intento comprar entrada");
-			boolean comprarEntradas = webCompra.comprarEntrada();
-			if (comprarEntradas) {
-				entradasCompradas += 1;
-				logger.info(tabuladores + "Fan " + numeroFan + " Compré! Llevo: " + entradasCompradas);
-				logger.info(tabuladores + "Fan " + numeroFan + " (dormir zzzz)");
-				Random rd = new Random();
-				int tiempoDormir = rd.nextInt(1, 4);
-				Thread.sleep(tiempoDormir * 1000);
+			if(entradasCompradas<EjemploTicketMaster.MAX_ENTRADAS_POR_FAN) {
+				logger.info(tabuladores + "Fan " + numeroFan + " :Intento comprar entrada");
+				boolean comprarEntradas = webCompra.comprarEntrada();
+				if (comprarEntradas) {
+					entradasCompradas += 1;
+					logger.info(tabuladores + "Fan " + numeroFan + " Compré! Llevo: " + entradasCompradas);
+					logger.info(tabuladores + "Fan " + numeroFan + " (dormir zzzz)");
+					Random rd = new Random();
+					int tiempoDormir = rd.nextInt(1, 4);
+					Thread.sleep(tiempoDormir * 1000);
+				}
 			}
-		}while (!WebCompraConciertos.cerrarVenta);
+		}while (!WebCompraConciertos.cerrarVenta&&entradasCompradas<EjemploTicketMaster.MAX_ENTRADAS_POR_FAN);
 			logger.info(tabuladores+"Fan "+numeroFan+" -Termino- ");
 		} catch(InterruptedException e){
 				throw new RuntimeException(e);

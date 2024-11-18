@@ -11,10 +11,10 @@ import java.util.List;
 public class EjemploTicketMaster {
 
 	// Total de entradas que se vender�n
-	public static int TOTAL_ENTRADAS = 10;
+	public static int TOTAL_ENTRADAS = 13;
 
 	// El número de entradas que reponerá cada vez el promotor
-	public static int REPOSICION_ENTRADAS = 2;
+	public static int REPOSICION_ENTRADAS = 3;
 
 	// El número máximo de entradas por fan
 	public static int MAX_ENTRADAS_POR_FAN = 10;

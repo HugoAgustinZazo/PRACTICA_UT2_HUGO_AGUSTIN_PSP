@@ -24,10 +24,11 @@ public class PromotoraConciertos extends Thread {
 					int contador=0;
 					do {
 						if (!webCompra.hayEntradas()) {
-							if(contador==(numvueltas-1)){
-								numEntradasRepuestas=EjemploTicketMaster.REPOSICION_ENTRADAS;
-							}else{
+							if(contador==(numvueltas)){
 								numEntradasRepuestas=EjemploTicketMaster.TOTAL_ENTRADAS-contadorNumEntradasRepuestas;
+
+							}else{
+								numEntradasRepuestas=EjemploTicketMaster.REPOSICION_ENTRADAS;
 							}
 							logger.info("Promotora: Repongo " + numEntradasRepuestas);
 							webCompra.reponerEntradas(numEntradasRepuestas);
@@ -37,7 +38,7 @@ public class PromotoraConciertos extends Thread {
 							Thread.sleep(numSegundos * 1000);
 							contador++;
 						}
-					}while(contador<numvueltas);
+					}while(contador<=numvueltas);
 					logger.info(" Promotora: Ya se han terminado las entradas, qu� pena. Vendí: "+WebCompraConciertos.entradasVendidas);
 					webCompra.cerrarVenta();
 				} catch (InterruptedException e) {
