@@ -21,10 +21,10 @@ public class FanGrupo extends Thread {
 	
 	@Override
 	public void run() {
+		try {
+		Thread.sleep(1000);
 		logger.info(tabuladores+"Fan "+numeroFan+" :Hola!");
-        try {
 		do{
-			Thread.sleep(1000);
 			if(entradasCompradas<EjemploTicketMaster.MAX_ENTRADAS_POR_FAN) {
 				logger.info(tabuladores + "Fan " + numeroFan + " :Intento comprar entrada");
 				boolean comprarEntradas = webCompra.comprarEntrada();
@@ -50,8 +50,9 @@ public class FanGrupo extends Thread {
 			logger.info(tabuladores + "Fan "+numeroFan+": Solo he conseguido: "+entradasCompradas);
 			total +=entradasCompradas;
 		}
-		logger.info("Total entradas compradas por los fans "+total);
-
+		if (total==EjemploTicketMaster.TOTAL_ENTRADAS) {
+			logger.info("Total entradas compradas por los fans "+total);
+		}
 	}
 	
 

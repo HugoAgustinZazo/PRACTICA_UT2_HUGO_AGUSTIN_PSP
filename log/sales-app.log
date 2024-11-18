@@ -851,3 +851,340 @@
 2024-11-18 09:53:28 [main] INFO  org.example.model.FanGrupo - Total entradas compradas por los fans 3
 2024-11-18 09:53:28 [main] INFO  org.example.model.FanGrupo - 				Fan 5: Solo he conseguido: 3
 2024-11-18 09:53:28 [main] INFO  org.example.model.FanGrupo - Total entradas compradas por los fans 3
+2024-11-18 13:13:24 [Thread-5] INFO  org.example.model.FanGrupo - 				Fan 5 :Hola!
+2024-11-18 13:13:24 [Thread-3] INFO  org.example.model.FanGrupo - 				Fan 3 :Hola!
+2024-11-18 13:13:24 [Thread-2] INFO  org.example.model.FanGrupo - 				Fan 2 :Hola!
+2024-11-18 13:13:24 [Thread-4] INFO  org.example.model.FanGrupo - 				Fan 4 :Hola!
+2024-11-18 13:13:24 [Thread-1] INFO  org.example.model.FanGrupo - 				Fan 1 :Hola!
+2024-11-18 13:13:24 [Thread-0] INFO  o.example.model.PromotoraConciertos - Promotora: Repongo 3
+2024-11-18 13:13:24 [Thread-0] INFO  o.example.model.WebCompraConciertos - WebCompra: Reposicion: Ahora hay 3
+2024-11-18 13:13:25 [Thread-5] INFO  org.example.model.FanGrupo - 				Fan 5 :Intento comprar entrada
+2024-11-18 13:13:25 [Thread-3] INFO  org.example.model.FanGrupo - 				Fan 3 :Intento comprar entrada
+2024-11-18 13:13:25 [Thread-2] INFO  org.example.model.FanGrupo - 				Fan 2 :Intento comprar entrada
+2024-11-18 13:13:25 [Thread-1] INFO  org.example.model.FanGrupo - 				Fan 1 :Intento comprar entrada
+2024-11-18 13:13:25 [Thread-4] INFO  org.example.model.FanGrupo - 				Fan 4 :Intento comprar entrada
+2024-11-18 13:13:25 [Thread-5] INFO  o.example.model.WebCompraConciertos - WebCompra:  comprada quedan 2
+2024-11-18 13:13:25 [Thread-4] INFO  o.example.model.WebCompraConciertos - WebCompra:  comprada quedan 1
+2024-11-18 13:13:25 [Thread-1] INFO  o.example.model.WebCompraConciertos - WebCompra:  comprada quedan 0
+2024-11-18 13:13:25 [Thread-3] INFO  o.example.model.WebCompraConciertos - WebCompra: SOLD OUT! Esperamos a que repongan entradas
+2024-11-18 13:13:25 [Thread-2] INFO  o.example.model.WebCompraConciertos - WebCompra: SOLD OUT! Esperamos a que repongan entradas
+2024-11-18 13:13:25 [Thread-1] INFO  org.example.model.FanGrupo - 				Fan 1 Compré! Llevo: 1
+2024-11-18 13:13:25 [Thread-4] INFO  org.example.model.FanGrupo - 				Fan 4 Compré! Llevo: 1
+2024-11-18 13:13:25 [Thread-5] INFO  org.example.model.FanGrupo - 				Fan 5 Compré! Llevo: 1
+2024-11-18 13:13:25 [Thread-4] INFO  org.example.model.FanGrupo - 				Fan 4 (dormir zzzz)
+2024-11-18 13:13:25 [Thread-5] INFO  org.example.model.FanGrupo - 				Fan 5 (dormir zzzz)
+2024-11-18 13:13:25 [Thread-1] INFO  org.example.model.FanGrupo - 				Fan 1 (dormir zzzz)
+2024-11-18 13:13:28 [Thread-5] INFO  org.example.model.FanGrupo - 				Fan 5 :Intento comprar entrada
+2024-11-18 13:13:28 [Thread-4] INFO  org.example.model.FanGrupo - 				Fan 4 :Intento comprar entrada
+2024-11-18 13:13:28 [Thread-1] INFO  org.example.model.FanGrupo - 				Fan 1 :Intento comprar entrada
+2024-11-18 13:13:28 [Thread-4] INFO  o.example.model.WebCompraConciertos - WebCompra: SOLD OUT! Esperamos a que repongan entradas
+2024-11-18 13:13:28 [Thread-5] INFO  o.example.model.WebCompraConciertos - WebCompra: SOLD OUT! Esperamos a que repongan entradas
+2024-11-18 13:13:28 [Thread-1] INFO  o.example.model.WebCompraConciertos - WebCompra: SOLD OUT! Esperamos a que repongan entradas
+2024-11-18 13:13:29 [Thread-0] INFO  o.example.model.PromotoraConciertos - Promotora: Repongo 3
+2024-11-18 13:13:29 [Thread-0] INFO  o.example.model.WebCompraConciertos - WebCompra: Reposicion: Ahora hay 3
+2024-11-18 13:13:29 [Thread-3] INFO  o.example.model.WebCompraConciertos - WebCompra:  comprada quedan 2
+2024-11-18 13:13:29 [Thread-2] INFO  o.example.model.WebCompraConciertos - WebCompra:  comprada quedan 1
+2024-11-18 13:13:29 [Thread-3] INFO  org.example.model.FanGrupo - 				Fan 3 Compré! Llevo: 1
+2024-11-18 13:13:29 [Thread-2] INFO  org.example.model.FanGrupo - 				Fan 2 Compré! Llevo: 1
+2024-11-18 13:13:29 [Thread-4] INFO  o.example.model.WebCompraConciertos - WebCompra:  comprada quedan 0
+2024-11-18 13:13:29 [Thread-3] INFO  org.example.model.FanGrupo - 				Fan 3 (dormir zzzz)
+2024-11-18 13:13:29 [Thread-2] INFO  org.example.model.FanGrupo - 				Fan 2 (dormir zzzz)
+2024-11-18 13:13:29 [Thread-4] INFO  org.example.model.FanGrupo - 				Fan 4 Compré! Llevo: 2
+2024-11-18 13:13:29 [Thread-5] INFO  o.example.model.WebCompraConciertos - WebCompra: SOLD OUT! Esperamos a que repongan entradas
+2024-11-18 13:13:29 [Thread-4] INFO  org.example.model.FanGrupo - 				Fan 4 (dormir zzzz)
+2024-11-18 13:13:32 [Thread-3] INFO  org.example.model.FanGrupo - 				Fan 3 :Intento comprar entrada
+2024-11-18 13:13:32 [Thread-2] INFO  org.example.model.FanGrupo - 				Fan 2 :Intento comprar entrada
+2024-11-18 13:13:32 [Thread-3] INFO  o.example.model.WebCompraConciertos - WebCompra: SOLD OUT! Esperamos a que repongan entradas
+2024-11-18 13:13:32 [Thread-2] INFO  o.example.model.WebCompraConciertos - WebCompra: SOLD OUT! Esperamos a que repongan entradas
+2024-11-18 13:13:32 [Thread-4] INFO  org.example.model.FanGrupo - 				Fan 4 :Intento comprar entrada
+2024-11-18 13:13:32 [Thread-4] INFO  o.example.model.WebCompraConciertos - WebCompra: SOLD OUT! Esperamos a que repongan entradas
+2024-11-18 13:13:36 [Thread-0] INFO  o.example.model.PromotoraConciertos - Promotora: Repongo 3
+2024-11-18 13:13:36 [Thread-0] INFO  o.example.model.WebCompraConciertos - WebCompra: Reposicion: Ahora hay 3
+2024-11-18 13:13:36 [Thread-1] INFO  o.example.model.WebCompraConciertos - WebCompra:  comprada quedan 2
+2024-11-18 13:13:36 [Thread-1] INFO  org.example.model.FanGrupo - 				Fan 1 Compré! Llevo: 2
+2024-11-18 13:13:36 [Thread-5] INFO  o.example.model.WebCompraConciertos - WebCompra:  comprada quedan 1
+2024-11-18 13:13:36 [Thread-1] INFO  org.example.model.FanGrupo - 				Fan 1 (dormir zzzz)
+2024-11-18 13:13:36 [Thread-5] INFO  org.example.model.FanGrupo - 				Fan 5 Compré! Llevo: 2
+2024-11-18 13:13:36 [Thread-3] INFO  o.example.model.WebCompraConciertos - WebCompra:  comprada quedan 0
+2024-11-18 13:13:36 [Thread-5] INFO  org.example.model.FanGrupo - 				Fan 5 (dormir zzzz)
+2024-11-18 13:13:36 [Thread-2] INFO  o.example.model.WebCompraConciertos - WebCompra: SOLD OUT! Esperamos a que repongan entradas
+2024-11-18 13:13:36 [Thread-3] INFO  org.example.model.FanGrupo - 				Fan 3 Compré! Llevo: 2
+2024-11-18 13:13:36 [Thread-3] INFO  org.example.model.FanGrupo - 				Fan 3 (dormir zzzz)
+2024-11-18 13:13:40 [Thread-1] INFO  org.example.model.FanGrupo - 				Fan 1 :Intento comprar entrada
+2024-11-18 13:13:40 [Thread-1] INFO  o.example.model.WebCompraConciertos - WebCompra: SOLD OUT! Esperamos a que repongan entradas
+2024-11-18 13:13:40 [Thread-5] INFO  org.example.model.FanGrupo - 				Fan 5 :Intento comprar entrada
+2024-11-18 13:13:40 [Thread-3] INFO  org.example.model.FanGrupo - 				Fan 3 :Intento comprar entrada
+2024-11-18 13:13:40 [Thread-5] INFO  o.example.model.WebCompraConciertos - WebCompra: SOLD OUT! Esperamos a que repongan entradas
+2024-11-18 13:13:40 [Thread-3] INFO  o.example.model.WebCompraConciertos - WebCompra: SOLD OUT! Esperamos a que repongan entradas
+2024-11-18 13:13:41 [Thread-0] INFO  o.example.model.PromotoraConciertos - Promotora: Repongo 3
+2024-11-18 13:13:41 [Thread-0] INFO  o.example.model.WebCompraConciertos - WebCompra: Reposicion: Ahora hay 3
+2024-11-18 13:13:41 [Thread-4] INFO  o.example.model.WebCompraConciertos - WebCompra:  comprada quedan 2
+2024-11-18 13:13:41 [Thread-4] INFO  org.example.model.FanGrupo - 				Fan 4 Compré! Llevo: 3
+2024-11-18 13:13:41 [Thread-2] INFO  o.example.model.WebCompraConciertos - WebCompra:  comprada quedan 1
+2024-11-18 13:13:41 [Thread-4] INFO  org.example.model.FanGrupo - 				Fan 4 (dormir zzzz)
+2024-11-18 13:13:41 [Thread-2] INFO  org.example.model.FanGrupo - 				Fan 2 Compré! Llevo: 2
+2024-11-18 13:13:41 [Thread-1] INFO  o.example.model.WebCompraConciertos - WebCompra:  comprada quedan 0
+2024-11-18 13:13:41 [Thread-2] INFO  org.example.model.FanGrupo - 				Fan 2 (dormir zzzz)
+2024-11-18 13:13:41 [Thread-1] INFO  org.example.model.FanGrupo - 				Fan 1 Compré! Llevo: 3
+2024-11-18 13:13:41 [Thread-5] INFO  o.example.model.WebCompraConciertos - WebCompra: SOLD OUT! Esperamos a que repongan entradas
+2024-11-18 13:13:41 [Thread-1] INFO  org.example.model.FanGrupo - 				Fan 1 (dormir zzzz)
+2024-11-18 13:13:43 [Thread-4] INFO  org.example.model.FanGrupo - 				Fan 4 :Intento comprar entrada
+2024-11-18 13:13:43 [Thread-4] INFO  o.example.model.WebCompraConciertos - WebCompra: SOLD OUT! Esperamos a que repongan entradas
+2024-11-18 13:13:44 [Thread-0] INFO  o.example.model.PromotoraConciertos - Promotora: Repongo 1
+2024-11-18 13:13:44 [Thread-0] INFO  o.example.model.WebCompraConciertos - WebCompra: Reposicion: Ahora hay 1
+2024-11-18 13:13:44 [Thread-3] INFO  o.example.model.WebCompraConciertos - WebCompra:  comprada quedan 0
+2024-11-18 13:13:44 [Thread-1] INFO  org.example.model.FanGrupo - 				Fan 1 :Intento comprar entrada
+2024-11-18 13:13:44 [Thread-5] INFO  o.example.model.WebCompraConciertos - WebCompra: SOLD OUT! Esperamos a que repongan entradas
+2024-11-18 13:13:44 [Thread-3] INFO  org.example.model.FanGrupo - 				Fan 3 Compré! Llevo: 3
+2024-11-18 13:13:44 [Thread-3] INFO  org.example.model.FanGrupo - 				Fan 3 (dormir zzzz)
+2024-11-18 13:13:44 [Thread-1] INFO  o.example.model.WebCompraConciertos - WebCompra: SOLD OUT! Esperamos a que repongan entradas
+2024-11-18 13:13:45 [Thread-2] INFO  org.example.model.FanGrupo - 				Fan 2 :Intento comprar entrada
+2024-11-18 13:13:45 [Thread-2] INFO  o.example.model.WebCompraConciertos - WebCompra: SOLD OUT! Esperamos a que repongan entradas
+2024-11-18 13:13:47 [Thread-3] INFO  org.example.model.FanGrupo - 				Fan 3 :Intento comprar entrada
+2024-11-18 13:13:47 [Thread-3] INFO  o.example.model.WebCompraConciertos - WebCompra: SOLD OUT! Esperamos a que repongan entradas
+2024-11-18 13:13:49 [Thread-0] INFO  o.example.model.PromotoraConciertos -  Promotora: Ya se han terminado las entradas, qu� pena. Vendí: 13
+2024-11-18 13:13:49 [Thread-4] INFO  org.example.model.FanGrupo - 				Fan 4 -Termino- 
+2024-11-18 13:13:49 [Thread-1] INFO  org.example.model.FanGrupo - 				Fan 1 -Termino- 
+2024-11-18 13:13:49 [Thread-3] INFO  org.example.model.FanGrupo - 				Fan 3 -Termino- 
+2024-11-18 13:13:49 [Thread-2] INFO  org.example.model.FanGrupo - 				Fan 2 -Termino- 
+2024-11-18 13:13:49 [Thread-5] INFO  org.example.model.FanGrupo - 				Fan 5 -Termino- 
+2024-11-18 13:13:49 [main] INFO  org.example.model.FanGrupo - 				Fan 1: Solo he conseguido: 3
+2024-11-18 13:13:49 [main] INFO  org.example.model.FanGrupo - 				Fan 2: Solo he conseguido: 2
+2024-11-18 13:13:49 [main] INFO  org.example.model.FanGrupo - 				Fan 3: Solo he conseguido: 3
+2024-11-18 13:13:49 [main] INFO  org.example.model.FanGrupo - 				Fan 4: Solo he conseguido: 3
+2024-11-18 13:13:49 [main] INFO  org.example.model.FanGrupo - 				Fan 5: Solo he conseguido: 2
+2024-11-18 13:16:54 [Thread-2] INFO  org.example.model.FanGrupo - 				Fan 2 :Hola!
+2024-11-18 13:16:54 [Thread-0] INFO  o.example.model.PromotoraConciertos - Promotora: Repongo 3
+2024-11-18 13:16:54 [Thread-3] INFO  org.example.model.FanGrupo - 				Fan 3 :Hola!
+2024-11-18 13:16:54 [Thread-1] INFO  org.example.model.FanGrupo - 				Fan 1 :Hola!
+2024-11-18 13:16:54 [Thread-5] INFO  org.example.model.FanGrupo - 				Fan 5 :Hola!
+2024-11-18 13:16:54 [Thread-4] INFO  org.example.model.FanGrupo - 				Fan 4 :Hola!
+2024-11-18 13:16:54 [Thread-0] INFO  o.example.model.WebCompraConciertos - WebCompra: Reposicion: Ahora hay 3
+2024-11-18 13:16:55 [Thread-3] INFO  org.example.model.FanGrupo - 				Fan 3 :Intento comprar entrada
+2024-11-18 13:16:55 [Thread-5] INFO  org.example.model.FanGrupo - 				Fan 5 :Intento comprar entrada
+2024-11-18 13:16:55 [Thread-4] INFO  org.example.model.FanGrupo - 				Fan 4 :Intento comprar entrada
+2024-11-18 13:16:55 [Thread-1] INFO  org.example.model.FanGrupo - 				Fan 1 :Intento comprar entrada
+2024-11-18 13:16:55 [Thread-2] INFO  org.example.model.FanGrupo - 				Fan 2 :Intento comprar entrada
+2024-11-18 13:16:55 [Thread-3] INFO  o.example.model.WebCompraConciertos - WebCompra:  comprada quedan 2
+2024-11-18 13:16:55 [Thread-2] INFO  o.example.model.WebCompraConciertos - WebCompra:  comprada quedan 1
+2024-11-18 13:16:55 [Thread-1] INFO  o.example.model.WebCompraConciertos - WebCompra:  comprada quedan 0
+2024-11-18 13:16:55 [Thread-4] INFO  o.example.model.WebCompraConciertos - WebCompra: SOLD OUT! Esperamos a que repongan entradas
+2024-11-18 13:16:55 [Thread-5] INFO  o.example.model.WebCompraConciertos - WebCompra: SOLD OUT! Esperamos a que repongan entradas
+2024-11-18 13:16:55 [Thread-1] INFO  org.example.model.FanGrupo - 				Fan 1 Compré! Llevo: 1
+2024-11-18 13:16:55 [Thread-3] INFO  org.example.model.FanGrupo - 				Fan 3 Compré! Llevo: 1
+2024-11-18 13:16:55 [Thread-2] INFO  org.example.model.FanGrupo - 				Fan 2 Compré! Llevo: 1
+2024-11-18 13:16:55 [Thread-1] INFO  org.example.model.FanGrupo - 				Fan 1 (dormir zzzz)
+2024-11-18 13:16:55 [Thread-2] INFO  org.example.model.FanGrupo - 				Fan 2 (dormir zzzz)
+2024-11-18 13:16:55 [Thread-3] INFO  org.example.model.FanGrupo - 				Fan 3 (dormir zzzz)
+2024-11-18 13:16:57 [Thread-1] INFO  org.example.model.FanGrupo - 				Fan 1 :Intento comprar entrada
+2024-11-18 13:16:57 [Thread-2] INFO  org.example.model.FanGrupo - 				Fan 2 :Intento comprar entrada
+2024-11-18 13:16:57 [Thread-1] INFO  o.example.model.WebCompraConciertos - WebCompra: SOLD OUT! Esperamos a que repongan entradas
+2024-11-18 13:16:57 [Thread-2] INFO  o.example.model.WebCompraConciertos - WebCompra: SOLD OUT! Esperamos a que repongan entradas
+2024-11-18 13:16:58 [Thread-3] INFO  org.example.model.FanGrupo - 				Fan 3 :Intento comprar entrada
+2024-11-18 13:16:58 [Thread-3] INFO  o.example.model.WebCompraConciertos - WebCompra: SOLD OUT! Esperamos a que repongan entradas
+2024-11-18 13:17:00 [main] INFO  org.example.model.FanGrupo - 				Fan 1: Solo he conseguido: 1
+2024-11-18 13:17:00 [main] INFO  org.example.model.FanGrupo - 				Fan 2: Solo he conseguido: 1
+2024-11-18 13:17:00 [main] INFO  org.example.model.FanGrupo - 				Fan 3: Solo he conseguido: 1
+2024-11-18 13:18:37 [Thread-2] INFO  org.example.model.FanGrupo - 				Fan 2 :Hola!
+2024-11-18 13:18:37 [Thread-5] INFO  org.example.model.FanGrupo - 				Fan 5 :Hola!
+2024-11-18 13:18:37 [Thread-1] INFO  org.example.model.FanGrupo - 				Fan 1 :Hola!
+2024-11-18 13:18:37 [Thread-4] INFO  org.example.model.FanGrupo - 				Fan 4 :Hola!
+2024-11-18 13:18:37 [Thread-0] INFO  o.example.model.PromotoraConciertos - Promotora: Repongo 3
+2024-11-18 13:18:37 [Thread-3] INFO  org.example.model.FanGrupo - 				Fan 3 :Hola!
+2024-11-18 13:18:37 [Thread-0] INFO  o.example.model.WebCompraConciertos - WebCompra: Reposicion: Ahora hay 3
+2024-11-18 13:18:38 [Thread-5] INFO  org.example.model.FanGrupo - 				Fan 5 :Intento comprar entrada
+2024-11-18 13:18:38 [Thread-4] INFO  org.example.model.FanGrupo - 				Fan 4 :Intento comprar entrada
+2024-11-18 13:18:38 [Thread-3] INFO  org.example.model.FanGrupo - 				Fan 3 :Intento comprar entrada
+2024-11-18 13:18:38 [Thread-2] INFO  org.example.model.FanGrupo - 				Fan 2 :Intento comprar entrada
+2024-11-18 13:18:38 [Thread-1] INFO  org.example.model.FanGrupo - 				Fan 1 :Intento comprar entrada
+2024-11-18 13:18:38 [Thread-5] INFO  o.example.model.WebCompraConciertos - WebCompra:  comprada quedan 2
+2024-11-18 13:18:38 [Thread-1] INFO  o.example.model.WebCompraConciertos - WebCompra:  comprada quedan 1
+2024-11-18 13:18:38 [Thread-2] INFO  o.example.model.WebCompraConciertos - WebCompra:  comprada quedan 0
+2024-11-18 13:18:38 [Thread-3] INFO  o.example.model.WebCompraConciertos - WebCompra: SOLD OUT! Esperamos a que repongan entradas
+2024-11-18 13:18:38 [Thread-4] INFO  o.example.model.WebCompraConciertos - WebCompra: SOLD OUT! Esperamos a que repongan entradas
+2024-11-18 13:18:38 [Thread-5] INFO  org.example.model.FanGrupo - 				Fan 5 Compré! Llevo: 1
+2024-11-18 13:18:38 [Thread-2] INFO  org.example.model.FanGrupo - 				Fan 2 Compré! Llevo: 1
+2024-11-18 13:18:38 [Thread-1] INFO  org.example.model.FanGrupo - 				Fan 1 Compré! Llevo: 1
+2024-11-18 13:18:38 [Thread-5] INFO  org.example.model.FanGrupo - 				Fan 5 (dormir zzzz)
+2024-11-18 13:18:38 [Thread-2] INFO  org.example.model.FanGrupo - 				Fan 2 (dormir zzzz)
+2024-11-18 13:18:38 [Thread-1] INFO  org.example.model.FanGrupo - 				Fan 1 (dormir zzzz)
+2024-11-18 13:18:40 [Thread-2] INFO  org.example.model.FanGrupo - 				Fan 2 :Intento comprar entrada
+2024-11-18 13:18:40 [Thread-2] INFO  o.example.model.WebCompraConciertos - WebCompra: SOLD OUT! Esperamos a que repongan entradas
+2024-11-18 13:18:42 [Thread-5] INFO  org.example.model.FanGrupo - 				Fan 5 :Intento comprar entrada
+2024-11-18 13:18:42 [Thread-1] INFO  org.example.model.FanGrupo - 				Fan 1 :Intento comprar entrada
+2024-11-18 13:18:42 [Thread-5] INFO  o.example.model.WebCompraConciertos - WebCompra: SOLD OUT! Esperamos a que repongan entradas
+2024-11-18 13:18:42 [Thread-1] INFO  o.example.model.WebCompraConciertos - WebCompra: SOLD OUT! Esperamos a que repongan entradas
+2024-11-18 13:18:45 [Thread-0] INFO  o.example.model.PromotoraConciertos - Promotora: Repongo 3
+2024-11-18 13:18:45 [Thread-0] INFO  o.example.model.WebCompraConciertos - WebCompra: Reposicion: Ahora hay 3
+2024-11-18 13:18:45 [Thread-3] INFO  o.example.model.WebCompraConciertos - WebCompra:  comprada quedan 2
+2024-11-18 13:18:45 [Thread-3] INFO  org.example.model.FanGrupo - 				Fan 3 Compré! Llevo: 1
+2024-11-18 13:18:45 [Thread-4] INFO  o.example.model.WebCompraConciertos - WebCompra:  comprada quedan 1
+2024-11-18 13:18:45 [Thread-3] INFO  org.example.model.FanGrupo - 				Fan 3 (dormir zzzz)
+2024-11-18 13:18:45 [Thread-2] INFO  o.example.model.WebCompraConciertos - WebCompra:  comprada quedan 0
+2024-11-18 13:18:45 [Thread-4] INFO  org.example.model.FanGrupo - 				Fan 4 Compré! Llevo: 1
+2024-11-18 13:18:45 [Thread-2] INFO  org.example.model.FanGrupo - 				Fan 2 Compré! Llevo: 2
+2024-11-18 13:18:45 [Thread-5] INFO  o.example.model.WebCompraConciertos - WebCompra: SOLD OUT! Esperamos a que repongan entradas
+2024-11-18 13:18:45 [Thread-4] INFO  org.example.model.FanGrupo - 				Fan 4 (dormir zzzz)
+2024-11-18 13:18:45 [Thread-2] INFO  org.example.model.FanGrupo - 				Fan 2 (dormir zzzz)
+2024-11-18 13:18:48 [Thread-3] INFO  org.example.model.FanGrupo - 				Fan 3 :Intento comprar entrada
+2024-11-18 13:18:48 [Thread-3] INFO  o.example.model.WebCompraConciertos - WebCompra: SOLD OUT! Esperamos a que repongan entradas
+2024-11-18 13:18:48 [Thread-4] INFO  org.example.model.FanGrupo - 				Fan 4 :Intento comprar entrada
+2024-11-18 13:18:48 [Thread-2] INFO  org.example.model.FanGrupo - 				Fan 2 :Intento comprar entrada
+2024-11-18 13:18:48 [Thread-4] INFO  o.example.model.WebCompraConciertos - WebCompra: SOLD OUT! Esperamos a que repongan entradas
+2024-11-18 13:18:48 [Thread-2] INFO  o.example.model.WebCompraConciertos - WebCompra: SOLD OUT! Esperamos a que repongan entradas
+2024-11-18 13:18:51 [Thread-0] INFO  o.example.model.PromotoraConciertos - Promotora: Repongo 3
+2024-11-18 13:18:51 [Thread-0] INFO  o.example.model.WebCompraConciertos - WebCompra: Reposicion: Ahora hay 3
+2024-11-18 13:18:51 [Thread-1] INFO  o.example.model.WebCompraConciertos - WebCompra:  comprada quedan 2
+2024-11-18 13:18:51 [Thread-1] INFO  org.example.model.FanGrupo - 				Fan 1 Compré! Llevo: 2
+2024-11-18 13:18:51 [Thread-5] INFO  o.example.model.WebCompraConciertos - WebCompra:  comprada quedan 1
+2024-11-18 13:18:51 [Thread-1] INFO  org.example.model.FanGrupo - 				Fan 1 (dormir zzzz)
+2024-11-18 13:18:51 [Thread-5] INFO  org.example.model.FanGrupo - 				Fan 5 Compré! Llevo: 2
+2024-11-18 13:18:51 [Thread-3] INFO  o.example.model.WebCompraConciertos - WebCompra:  comprada quedan 0
+2024-11-18 13:18:51 [Thread-3] INFO  org.example.model.FanGrupo - 				Fan 3 Compré! Llevo: 2
+2024-11-18 13:18:51 [Thread-4] INFO  o.example.model.WebCompraConciertos - WebCompra: SOLD OUT! Esperamos a que repongan entradas
+2024-11-18 13:18:51 [Thread-3] INFO  org.example.model.FanGrupo - 				Fan 3 (dormir zzzz)
+2024-11-18 13:18:51 [Thread-5] INFO  org.example.model.FanGrupo - 				Fan 5 (dormir zzzz)
+2024-11-18 13:18:53 [Thread-1] INFO  org.example.model.FanGrupo - 				Fan 1 :Intento comprar entrada
+2024-11-18 13:18:53 [Thread-1] INFO  o.example.model.WebCompraConciertos - WebCompra: SOLD OUT! Esperamos a que repongan entradas
+2024-11-18 13:18:54 [Thread-0] INFO  o.example.model.PromotoraConciertos - Promotora: Repongo 3
+2024-11-18 13:18:54 [Thread-0] INFO  o.example.model.WebCompraConciertos - WebCompra: Reposicion: Ahora hay 3
+2024-11-18 13:18:54 [Thread-2] INFO  o.example.model.WebCompraConciertos - WebCompra:  comprada quedan 2
+2024-11-18 13:18:54 [Thread-4] INFO  o.example.model.WebCompraConciertos - WebCompra:  comprada quedan 1
+2024-11-18 13:18:54 [Thread-2] INFO  org.example.model.FanGrupo - 				Fan 2 Compré! Llevo: 3
+2024-11-18 13:18:54 [Thread-2] INFO  org.example.model.FanGrupo - 				Fan 2 (dormir zzzz)
+2024-11-18 13:18:54 [Thread-4] INFO  org.example.model.FanGrupo - 				Fan 4 Compré! Llevo: 2
+2024-11-18 13:18:54 [Thread-4] INFO  org.example.model.FanGrupo - 				Fan 4 (dormir zzzz)
+2024-11-18 13:18:54 [Thread-1] INFO  o.example.model.WebCompraConciertos - WebCompra:  comprada quedan 0
+2024-11-18 13:18:54 [Thread-1] INFO  org.example.model.FanGrupo - 				Fan 1 Compré! Llevo: 3
+2024-11-18 13:18:54 [Thread-1] INFO  org.example.model.FanGrupo - 				Fan 1 (dormir zzzz)
+2024-11-18 13:18:55 [Thread-3] INFO  org.example.model.FanGrupo - 				Fan 3 :Intento comprar entrada
+2024-11-18 13:18:55 [Thread-5] INFO  org.example.model.FanGrupo - 				Fan 5 :Intento comprar entrada
+2024-11-18 13:18:55 [Thread-3] INFO  o.example.model.WebCompraConciertos - WebCompra: SOLD OUT! Esperamos a que repongan entradas
+2024-11-18 13:18:55 [Thread-5] INFO  o.example.model.WebCompraConciertos - WebCompra: SOLD OUT! Esperamos a que repongan entradas
+2024-11-18 13:18:58 [Thread-0] INFO  o.example.model.PromotoraConciertos - Promotora: Repongo 1
+2024-11-18 13:18:58 [Thread-0] INFO  o.example.model.WebCompraConciertos - WebCompra: Reposicion: Ahora hay 1
+2024-11-18 13:18:58 [Thread-3] INFO  o.example.model.WebCompraConciertos - WebCompra:  comprada quedan 0
+2024-11-18 13:18:58 [Thread-3] INFO  org.example.model.FanGrupo - 				Fan 3 Compré! Llevo: 3
+2024-11-18 13:18:58 [Thread-5] INFO  o.example.model.WebCompraConciertos - WebCompra: SOLD OUT! Esperamos a que repongan entradas
+2024-11-18 13:18:58 [Thread-2] INFO  org.example.model.FanGrupo - 				Fan 2 :Intento comprar entrada
+2024-11-18 13:18:58 [Thread-3] INFO  org.example.model.FanGrupo - 				Fan 3 (dormir zzzz)
+2024-11-18 13:18:58 [Thread-2] INFO  o.example.model.WebCompraConciertos - WebCompra: SOLD OUT! Esperamos a que repongan entradas
+2024-11-18 13:18:58 [Thread-4] INFO  org.example.model.FanGrupo - 				Fan 4 :Intento comprar entrada
+2024-11-18 13:18:58 [Thread-4] INFO  o.example.model.WebCompraConciertos - WebCompra: SOLD OUT! Esperamos a que repongan entradas
+2024-11-18 13:18:58 [Thread-1] INFO  org.example.model.FanGrupo - 				Fan 1 :Intento comprar entrada
+2024-11-18 13:18:58 [Thread-1] INFO  o.example.model.WebCompraConciertos - WebCompra: SOLD OUT! Esperamos a que repongan entradas
+2024-11-18 13:19:01 [Thread-0] INFO  o.example.model.PromotoraConciertos -  Promotora: Ya se han terminado las entradas, qu� pena. Vendí: 13
+2024-11-18 13:19:01 [Thread-3] INFO  org.example.model.FanGrupo - 				Fan 3 :Intento comprar entrada
+2024-11-18 13:19:01 [Thread-3] INFO  o.example.model.WebCompraConciertos - WebCompra: SOLD OUT! Esperamos a que repongan entradas
+2024-11-18 13:19:01 [Thread-3] INFO  org.example.model.FanGrupo - 				Fan 3 -Termino- 
+2024-11-18 13:19:01 [Thread-1] INFO  org.example.model.FanGrupo - 				Fan 1 -Termino- 
+2024-11-18 13:19:01 [Thread-4] INFO  org.example.model.FanGrupo - 				Fan 4 -Termino- 
+2024-11-18 13:19:01 [Thread-5] INFO  org.example.model.FanGrupo - 				Fan 5 -Termino- 
+2024-11-18 13:19:01 [Thread-2] INFO  org.example.model.FanGrupo - 				Fan 2 -Termino- 
+2024-11-18 13:19:01 [main] INFO  org.example.model.FanGrupo - 				Fan 1: Solo he conseguido: 3
+2024-11-18 13:19:01 [main] INFO  org.example.model.FanGrupo - 				Fan 2: Solo he conseguido: 3
+2024-11-18 13:19:01 [main] INFO  org.example.model.FanGrupo - 				Fan 3: Solo he conseguido: 3
+2024-11-18 13:19:01 [main] INFO  org.example.model.FanGrupo - 				Fan 4: Solo he conseguido: 2
+2024-11-18 13:19:01 [main] INFO  org.example.model.FanGrupo - 				Fan 5: Solo he conseguido: 2
+2024-11-18 13:21:21 [Thread-0] INFO  o.example.model.PromotoraConciertos - Promotora: Repongo 3
+2024-11-18 13:21:21 [Thread-0] INFO  o.example.model.WebCompraConciertos - WebCompra: Reposicion: Ahora hay 3
+2024-11-18 13:21:22 [Thread-2] INFO  org.example.model.FanGrupo - 				Fan 2 :Hola!
+2024-11-18 13:21:22 [Thread-4] INFO  org.example.model.FanGrupo - 				Fan 4 :Hola!
+2024-11-18 13:21:22 [Thread-5] INFO  org.example.model.FanGrupo - 				Fan 5 :Hola!
+2024-11-18 13:21:22 [Thread-1] INFO  org.example.model.FanGrupo - 				Fan 1 :Hola!
+2024-11-18 13:21:22 [Thread-3] INFO  org.example.model.FanGrupo - 				Fan 3 :Hola!
+2024-11-18 13:21:22 [Thread-2] INFO  org.example.model.FanGrupo - 				Fan 2 :Intento comprar entrada
+2024-11-18 13:21:22 [Thread-4] INFO  org.example.model.FanGrupo - 				Fan 4 :Intento comprar entrada
+2024-11-18 13:21:22 [Thread-3] INFO  org.example.model.FanGrupo - 				Fan 3 :Intento comprar entrada
+2024-11-18 13:21:22 [Thread-5] INFO  org.example.model.FanGrupo - 				Fan 5 :Intento comprar entrada
+2024-11-18 13:21:22 [Thread-1] INFO  org.example.model.FanGrupo - 				Fan 1 :Intento comprar entrada
+2024-11-18 13:21:22 [Thread-2] INFO  o.example.model.WebCompraConciertos - WebCompra:  comprada quedan 2
+2024-11-18 13:21:22 [Thread-1] INFO  o.example.model.WebCompraConciertos - WebCompra:  comprada quedan 1
+2024-11-18 13:21:22 [Thread-5] INFO  o.example.model.WebCompraConciertos - WebCompra:  comprada quedan 0
+2024-11-18 13:21:22 [Thread-3] INFO  o.example.model.WebCompraConciertos - WebCompra: SOLD OUT! Esperamos a que repongan entradas
+2024-11-18 13:21:22 [Thread-4] INFO  o.example.model.WebCompraConciertos - WebCompra: SOLD OUT! Esperamos a que repongan entradas
+2024-11-18 13:21:22 [Thread-5] INFO  org.example.model.FanGrupo - 				Fan 5 Compré! Llevo: 1
+2024-11-18 13:21:22 [Thread-2] INFO  org.example.model.FanGrupo - 				Fan 2 Compré! Llevo: 1
+2024-11-18 13:21:22 [Thread-1] INFO  org.example.model.FanGrupo - 				Fan 1 Compré! Llevo: 1
+2024-11-18 13:21:22 [Thread-5] INFO  org.example.model.FanGrupo - 				Fan 5 (dormir zzzz)
+2024-11-18 13:21:22 [Thread-2] INFO  org.example.model.FanGrupo - 				Fan 2 (dormir zzzz)
+2024-11-18 13:21:22 [Thread-1] INFO  org.example.model.FanGrupo - 				Fan 1 (dormir zzzz)
+2024-11-18 13:21:23 [Thread-1] INFO  org.example.model.FanGrupo - 				Fan 1 :Intento comprar entrada
+2024-11-18 13:21:23 [Thread-1] INFO  o.example.model.WebCompraConciertos - WebCompra: SOLD OUT! Esperamos a que repongan entradas
+2024-11-18 13:21:24 [Thread-5] INFO  org.example.model.FanGrupo - 				Fan 5 :Intento comprar entrada
+2024-11-18 13:21:24 [Thread-5] INFO  o.example.model.WebCompraConciertos - WebCompra: SOLD OUT! Esperamos a que repongan entradas
+2024-11-18 13:21:25 [Thread-2] INFO  org.example.model.FanGrupo - 				Fan 2 :Intento comprar entrada
+2024-11-18 13:21:25 [Thread-2] INFO  o.example.model.WebCompraConciertos - WebCompra: SOLD OUT! Esperamos a que repongan entradas
+2024-11-18 13:21:28 [Thread-0] INFO  o.example.model.PromotoraConciertos - Promotora: Repongo 3
+2024-11-18 13:21:28 [Thread-0] INFO  o.example.model.WebCompraConciertos - WebCompra: Reposicion: Ahora hay 3
+2024-11-18 13:21:28 [Thread-3] INFO  o.example.model.WebCompraConciertos - WebCompra:  comprada quedan 2
+2024-11-18 13:21:28 [Thread-4] INFO  o.example.model.WebCompraConciertos - WebCompra:  comprada quedan 1
+2024-11-18 13:21:28 [Thread-3] INFO  org.example.model.FanGrupo - 				Fan 3 Compré! Llevo: 1
+2024-11-18 13:21:28 [Thread-1] INFO  o.example.model.WebCompraConciertos - WebCompra:  comprada quedan 0
+2024-11-18 13:21:28 [Thread-4] INFO  org.example.model.FanGrupo - 				Fan 4 Compré! Llevo: 1
+2024-11-18 13:21:28 [Thread-3] INFO  org.example.model.FanGrupo - 				Fan 3 (dormir zzzz)
+2024-11-18 13:21:28 [Thread-4] INFO  org.example.model.FanGrupo - 				Fan 4 (dormir zzzz)
+2024-11-18 13:21:28 [Thread-1] INFO  org.example.model.FanGrupo - 				Fan 1 Compré! Llevo: 2
+2024-11-18 13:21:28 [Thread-5] INFO  o.example.model.WebCompraConciertos - WebCompra: SOLD OUT! Esperamos a que repongan entradas
+2024-11-18 13:21:28 [Thread-1] INFO  org.example.model.FanGrupo - 				Fan 1 (dormir zzzz)
+2024-11-18 13:21:30 [Thread-4] INFO  org.example.model.FanGrupo - 				Fan 4 :Intento comprar entrada
+2024-11-18 13:21:30 [Thread-1] INFO  org.example.model.FanGrupo - 				Fan 1 :Intento comprar entrada
+2024-11-18 13:21:30 [Thread-4] INFO  o.example.model.WebCompraConciertos - WebCompra: SOLD OUT! Esperamos a que repongan entradas
+2024-11-18 13:21:30 [Thread-1] INFO  o.example.model.WebCompraConciertos - WebCompra: SOLD OUT! Esperamos a que repongan entradas
+2024-11-18 13:21:31 [Thread-3] INFO  org.example.model.FanGrupo - 				Fan 3 :Intento comprar entrada
+2024-11-18 13:21:31 [Thread-3] INFO  o.example.model.WebCompraConciertos - WebCompra: SOLD OUT! Esperamos a que repongan entradas
+2024-11-18 13:21:35 [Thread-0] INFO  o.example.model.PromotoraConciertos - Promotora: Repongo 3
+2024-11-18 13:21:35 [Thread-0] INFO  o.example.model.WebCompraConciertos - WebCompra: Reposicion: Ahora hay 3
+2024-11-18 13:21:35 [Thread-2] INFO  o.example.model.WebCompraConciertos - WebCompra:  comprada quedan 2
+2024-11-18 13:21:35 [Thread-2] INFO  org.example.model.FanGrupo - 				Fan 2 Compré! Llevo: 2
+2024-11-18 13:21:35 [Thread-5] INFO  o.example.model.WebCompraConciertos - WebCompra:  comprada quedan 1
+2024-11-18 13:21:35 [Thread-2] INFO  org.example.model.FanGrupo - 				Fan 2 (dormir zzzz)
+2024-11-18 13:21:35 [Thread-5] INFO  org.example.model.FanGrupo - 				Fan 5 Compré! Llevo: 2
+2024-11-18 13:21:35 [Thread-4] INFO  o.example.model.WebCompraConciertos - WebCompra:  comprada quedan 0
+2024-11-18 13:21:35 [Thread-5] INFO  org.example.model.FanGrupo - 				Fan 5 (dormir zzzz)
+2024-11-18 13:21:35 [Thread-4] INFO  org.example.model.FanGrupo - 				Fan 4 Compré! Llevo: 2
+2024-11-18 13:21:35 [Thread-1] INFO  o.example.model.WebCompraConciertos - WebCompra: SOLD OUT! Esperamos a que repongan entradas
+2024-11-18 13:21:35 [Thread-4] INFO  org.example.model.FanGrupo - 				Fan 4 (dormir zzzz)
+2024-11-18 13:21:36 [Thread-4] INFO  org.example.model.FanGrupo - 				Fan 4 :Intento comprar entrada
+2024-11-18 13:21:36 [Thread-4] INFO  o.example.model.WebCompraConciertos - WebCompra: SOLD OUT! Esperamos a que repongan entradas
+2024-11-18 13:21:37 [Thread-5] INFO  org.example.model.FanGrupo - 				Fan 5 :Intento comprar entrada
+2024-11-18 13:21:37 [Thread-5] INFO  o.example.model.WebCompraConciertos - WebCompra: SOLD OUT! Esperamos a que repongan entradas
+2024-11-18 13:21:38 [Thread-2] INFO  org.example.model.FanGrupo - 				Fan 2 :Intento comprar entrada
+2024-11-18 13:21:38 [Thread-2] INFO  o.example.model.WebCompraConciertos - WebCompra: SOLD OUT! Esperamos a que repongan entradas
+2024-11-18 13:21:43 [Thread-0] INFO  o.example.model.PromotoraConciertos - Promotora: Repongo 3
+2024-11-18 13:21:43 [Thread-0] INFO  o.example.model.WebCompraConciertos - WebCompra: Reposicion: Ahora hay 3
+2024-11-18 13:21:43 [Thread-3] INFO  o.example.model.WebCompraConciertos - WebCompra:  comprada quedan 2
+2024-11-18 13:21:43 [Thread-1] INFO  o.example.model.WebCompraConciertos - WebCompra:  comprada quedan 1
+2024-11-18 13:21:43 [Thread-3] INFO  org.example.model.FanGrupo - 				Fan 3 Compré! Llevo: 2
+2024-11-18 13:21:43 [Thread-3] INFO  org.example.model.FanGrupo - 				Fan 3 (dormir zzzz)
+2024-11-18 13:21:43 [Thread-1] INFO  org.example.model.FanGrupo - 				Fan 1 Compré! Llevo: 3
+2024-11-18 13:21:43 [Thread-4] INFO  o.example.model.WebCompraConciertos - WebCompra:  comprada quedan 0
+2024-11-18 13:21:43 [Thread-1] INFO  org.example.model.FanGrupo - 				Fan 1 (dormir zzzz)
+2024-11-18 13:21:43 [Thread-4] INFO  org.example.model.FanGrupo - 				Fan 4 Compré! Llevo: 3
+2024-11-18 13:21:43 [Thread-5] INFO  o.example.model.WebCompraConciertos - WebCompra: SOLD OUT! Esperamos a que repongan entradas
+2024-11-18 13:21:43 [Thread-4] INFO  org.example.model.FanGrupo - 				Fan 4 (dormir zzzz)
+2024-11-18 13:21:45 [Thread-3] INFO  org.example.model.FanGrupo - 				Fan 3 :Intento comprar entrada
+2024-11-18 13:21:45 [Thread-4] INFO  org.example.model.FanGrupo - 				Fan 4 :Intento comprar entrada
+2024-11-18 13:21:45 [Thread-3] INFO  o.example.model.WebCompraConciertos - WebCompra: SOLD OUT! Esperamos a que repongan entradas
+2024-11-18 13:21:45 [Thread-4] INFO  o.example.model.WebCompraConciertos - WebCompra: SOLD OUT! Esperamos a que repongan entradas
+2024-11-18 13:21:46 [Thread-0] INFO  o.example.model.PromotoraConciertos - Promotora: Repongo 1
+2024-11-18 13:21:46 [Thread-0] INFO  o.example.model.WebCompraConciertos - WebCompra: Reposicion: Ahora hay 1
+2024-11-18 13:21:46 [Thread-2] INFO  o.example.model.WebCompraConciertos - WebCompra:  comprada quedan 0
+2024-11-18 13:21:46 [Thread-2] INFO  org.example.model.FanGrupo - 				Fan 2 Compré! Llevo: 3
+2024-11-18 13:21:46 [Thread-5] INFO  o.example.model.WebCompraConciertos - WebCompra: SOLD OUT! Esperamos a que repongan entradas
+2024-11-18 13:21:46 [Thread-2] INFO  org.example.model.FanGrupo - 				Fan 2 (dormir zzzz)
+2024-11-18 13:21:46 [Thread-1] INFO  org.example.model.FanGrupo - 				Fan 1 :Intento comprar entrada
+2024-11-18 13:21:46 [Thread-1] INFO  o.example.model.WebCompraConciertos - WebCompra: SOLD OUT! Esperamos a que repongan entradas
+2024-11-18 13:21:47 [Thread-2] INFO  org.example.model.FanGrupo - 				Fan 2 :Intento comprar entrada
+2024-11-18 13:21:47 [Thread-2] INFO  o.example.model.WebCompraConciertos - WebCompra: SOLD OUT! Esperamos a que repongan entradas
+2024-11-18 13:21:50 [Thread-0] INFO  o.example.model.PromotoraConciertos -  Promotora: Ya se han terminado las entradas, qu� pena. Vendí: 13
+2024-11-18 13:21:50 [Thread-4] INFO  org.example.model.FanGrupo - 				Fan 4 -Termino- 
+2024-11-18 13:21:50 [Thread-1] INFO  org.example.model.FanGrupo - 				Fan 1 -Termino- 
+2024-11-18 13:21:50 [Thread-2] INFO  org.example.model.FanGrupo - 				Fan 2 -Termino- 
+2024-11-18 13:21:50 [Thread-5] INFO  org.example.model.FanGrupo - 				Fan 5 -Termino- 
+2024-11-18 13:21:50 [Thread-3] INFO  org.example.model.FanGrupo - 				Fan 3 -Termino- 
+2024-11-18 13:21:50 [main] INFO  org.example.model.FanGrupo - 				Fan 1: Solo he conseguido: 3
+2024-11-18 13:21:50 [main] INFO  org.example.model.FanGrupo - 				Fan 2: Solo he conseguido: 3
+2024-11-18 13:21:50 [main] INFO  org.example.model.FanGrupo - 				Fan 3: Solo he conseguido: 2
+2024-11-18 13:21:50 [main] INFO  org.example.model.FanGrupo - 				Fan 4: Solo he conseguido: 3
+2024-11-18 13:21:50 [main] INFO  org.example.model.FanGrupo - 				Fan 5: Solo he conseguido: 2
