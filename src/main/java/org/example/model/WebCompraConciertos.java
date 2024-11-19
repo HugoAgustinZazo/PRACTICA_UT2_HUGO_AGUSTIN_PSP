@@ -20,6 +20,8 @@ public static int entradasVendidas = 0;
 
 	@Override
 	public synchronized boolean comprarEntrada() throws InterruptedException {
+		//En este metodo controlamos que solo se pueda entrar a intentar comprar entradas mientras que la venta no este cerrada
+		//asi evitamos que se nos quede algún hilo en el wait y no nos acabe el programa
 		while(entradasRestantesRepuestas==0&&!cerrarVenta) {
 			logger.info("WebCompra: SOLD OUT! Esperamos a que repongan entradas");
 			wait();
@@ -36,6 +38,7 @@ public static int entradasVendidas = 0;
 
 	@Override
 	public synchronized int reponerEntradas(int numeroEntradas) throws InterruptedException {
+		//En este metodo reponemos entradas y notificamos a los que esten esperando
 		logger.info("WebCompra: Reposicion: Ahora hay "+numeroEntradas);
 		entradasRestantesRepuestas = numeroEntradas;
 		hayentradas=true;
@@ -46,6 +49,7 @@ public static int entradasVendidas = 0;
 
 	@Override
 	public synchronized void cerrarVenta() {
+		//En este metodo nos encargamos de cerrar la venta si el numero de entradas totales pasa a ser cero la cerramos y notificamos a todos
 		if(entradasTotales==0) {
 			cerrarVenta = true;
 			notifyAll();
@@ -55,6 +59,7 @@ public static int entradasVendidas = 0;
 
 	@Override
 	public synchronized boolean hayEntradas() throws InterruptedException {
+		//En este metodo controlamos si hay entradas o no y devolvemos true/false en funcion de si hay o no
 		if(entradasRestantesRepuestas!=0) {
 			hayentradas=true;
 			return true;
@@ -65,6 +70,8 @@ public static int entradasVendidas = 0;
 
 	@Override
 	public synchronized int entradasRestantes() {
+		//En este metodo vamos restando entradas a las totales y a las disponibles en web al igual que vamos actualizando los booleans segun haya o no entradas y devolvemos
+		//las entradas disponibles en web
 	if(entradasRestantesRepuestas!=0) {
 		entradasRestantesRepuestas--;
 		entradasTotales--;
