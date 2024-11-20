@@ -21,6 +21,7 @@ public class FanGrupo extends Thread {
 	
 	@Override
 	public void run() {
+
 		/* En este método vemos la linea de ejecución de cada hilo de los Fans. Cada vez que entramos dormimos un segundo a cada fan para darle tiempo a pensar
 		 */
 		try {

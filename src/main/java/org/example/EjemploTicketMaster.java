@@ -28,6 +28,7 @@ public class EjemploTicketMaster {
 		System.out.println(String.format(mensajeInicial, NUM_FANS, TOTAL_ENTRADAS));
 		WebCompraConciertos webCompra = new WebCompraConciertos();
 		PromotoraConciertos liveNacion = new PromotoraConciertos(webCompra);
+		liveNacion.setName("Promotora");
 		List<FanGrupo> fans = new ArrayList<>();
 
 		// Creamos todos los fans
@@ -35,6 +36,7 @@ public class EjemploTicketMaster {
 			FanGrupo fan = new FanGrupo(webCompra, numFan);
 			fans.add(fan);
 			fan.start();
+			fan.setName("Fan "+numFan);
 		}
 
 		//Lanzamos al promotor para que empiece a reponer entradas
